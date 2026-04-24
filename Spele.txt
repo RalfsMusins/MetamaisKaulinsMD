@@ -1,0 +1,38 @@
+DnD tipa spēle
+
+2 spēlētāji - abiem 20HP
+
+Katrs spēlētājs met kauliņu un tik cik izkrīt skaitlis tik otrs spēlētājs zaudē HP. Zaude tas, kurš zaudē visu HP.
+
+Prasību specifikācija
+Piedalās 2 cilvēki
+Katram spēlētājam ir 20HP (dzīvības)
+Spēlētāji met 1 sešpusīgu kauliņu 
+Kauliņa rezultāts tiek atņemts no pretinieka HP
+Spēle notiek gājienos
+Spēle beidzas kad viena spēlētāja HP=<0
+
+Struktūrskice
+
+START
+  V
+Spēlētājs 1 HP = 20
+Spēlētājs 2 HP = 20
+  V
+Spēlētājs 1 met kauliņu
+  V
+Rezultātu atņem no Spēlētājs 2
+  V
+Vai Spēlētājs 2 HP=<0?
+	-> Jā: Spēlētājs 1 Uzvar -> END
+	-> Nē: spēle turpinās
+  V
+Spēlētājs 2 met kauliņu
+  V
+Rezultātu atņem no Spēlētājs 1
+  V
+Vai Spēlētājs 1 HP=<0?
+	-> Jā: Spēlētājs 2 Uzvar -> END
+	-> Nē: spēle turpinās
+
+
