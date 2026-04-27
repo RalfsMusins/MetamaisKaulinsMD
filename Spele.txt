@@ -2,7 +2,7 @@ DnD tipa spēle
 
 2 spēlētāji - abiem 20HP
 
-Katrs spēlētājs met kauliņu un tik cik izkrīt skaitlis tik otrs spēlētājs zaudē HP. Zaude tas, kurš zaudē visu HP.
+Katrs spēlētājs met kauliņu un tik cik izkrīt skaitlis tik otrs spēlētājs zaudē HP. Zaude tas, kurš zaudē visu HP, bet, ja, piemēram, spēlētājam 1 ir 3HP, spēlētājam 2 jāuzmet tieši 3, lai uzvarētu. 
 
 Prasību specifikācija
 Piedalās 2 cilvēki
